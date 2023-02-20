@@ -119,8 +119,6 @@ footer {
 
 .article {
     display: grid;
-    place-items: center;
-    place-content: center;
     row-gap: var(--section-gap);
 }
 .article section::after {
@@ -133,12 +131,13 @@ footer {
 }
 .article img {
     width: 100%;
+    justify-self: center;
     object-fit: contain;
     pointer-events: none;
 }
 .article iframe {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 /* -------------------------- STYLES -------------------------- */
