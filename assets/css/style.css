@@ -67,7 +67,10 @@ body {
         1fr
         auto;
     place-items: center;
+    place-content: center;
     row-gap: var(--section-gap);
+
+    border: #FFF 3px solid;
 }
 
 .primary-header {
@@ -98,6 +101,7 @@ body {
 
 footer {
     width: calc(100vw - 200px);
+    min-width: var(--article-min-width);
     max-width: var(--article-max-width);
     height: 6rem;
 
