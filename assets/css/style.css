@@ -90,7 +90,8 @@ body {
     margin: 0;
 }
 .article-list li {
-    width: 400px;
+    min-width: 300px;
+
     background-color: var(--bg-color);
     border-radius: 1rem;
 }
