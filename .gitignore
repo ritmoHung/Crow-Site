@@ -1,2 +1,5 @@
 # Ignore original paragraphs
 materials/
+
+# Ignore icon SVGs
+assets/icon
