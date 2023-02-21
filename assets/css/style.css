@@ -57,8 +57,6 @@ body {
 .main-layout {
     min-height: 100vh;
     min-height: 100dvh;
-    min-width: var(--article-min-width);
-    max-width: var(--article-max-width);
     margin: auto;
 
     display: grid;
@@ -72,6 +70,9 @@ body {
 }
 
 .primary-header {
+    min-width: var(--article-min-width);
+    max-width: var(--article-max-width);
+
     display: grid;
     grid-template-columns: 2fr 1fr;
     place-items: center;
@@ -98,7 +99,7 @@ body {
 }
 
 footer {
-    width: calc(100vw - 200px);
+    width: calc(100vw - 150px);
     min-width: var(--article-min-width);
     max-width: var(--article-max-width);
     height: 6rem;
@@ -107,7 +108,6 @@ footer {
     place-items: center;
     background-color: var(--footer-color);
     border-radius: 1rem 1rem 0 0;
-
 }
 
 /* Element structure */
@@ -141,6 +141,9 @@ footer {
 }
 
 .article {
+    min-width: var(--article-min-width);
+    max-width: var(--article-max-width);
+
     display: grid;
     row-gap: var(--section-gap);
 }
