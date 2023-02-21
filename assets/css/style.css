@@ -98,7 +98,6 @@ body {
 
 footer {
     width: calc(100vw - 200px);
-    min-width: var(--article-min-width);
     max-width: var(--article-max-width);
     height: 6rem;
 
