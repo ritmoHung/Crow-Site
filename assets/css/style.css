@@ -69,8 +69,6 @@ body {
     place-items: center;
     place-content: center;
     row-gap: var(--section-gap);
-
-    border: #FFF 3px solid;
 }
 
 .primary-header {
