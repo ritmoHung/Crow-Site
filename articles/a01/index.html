@@ -27,7 +27,7 @@
         <script src="../../assets/js/script.js"></script>
 
         <!-- Navigator -->
-        <nav id="primary-navbar" class="navbar navbar-expand-lg fixed-top" data-spy="affix">
+        <nav id="main-navbar" class="navbar navbar-expand-lg fixed-top" data-spy="affix">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../../">
                     <!-- TBF: Icon align -->
@@ -47,7 +47,7 @@
         <!-- Main layout -->
         <div class="main-layout">
             <!-- Header -->
-            <header class="primary-header container px-4">
+            <header class="main-header container-fluid px-4">
                 <div class="article-info">
                     <img src="../../assets/favicon.jpg" class="author-img" alt="Author Icon" />
                     <div class="author ms-3">
@@ -63,9 +63,9 @@
             </header>
 
             <!-- Main -->
-            <main>
+            <main class="container-fluid px-4">
                 <!-- Main Article -->
-                <div class="article container px-4">
+                <article class="main-article">
                     <div class="headings">
                         <h1 class="heading">烏鴉先生，【20】 插畫集</h1>
                         <span class="subheading" style="color: var(--color-grey) !important">我們只能見到那烏鴉張開雙翅 | 線上閱讀版</span>
@@ -80,7 +80,9 @@
                     </section>
 
                     <section>
-                        <iframe src="https://www.youtube-nocookie.com/embed/QOkDzaxXhWk" title="Jean-Michel Blais - Nostos (feat. Bufflo)"></iframe>
+                        <div class="iframe container-fluid">
+                            <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/QOkDzaxXhWk" frameborder="0" allowfullscreen="1" title="Jean-Michel Blais - Nostos (feat. Bufflo) [Stream]" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                        </div>
                     </section>
 
                     <section>
@@ -266,7 +268,7 @@
                             跟心中的不解一樣，我們議會也被懸在那，始終沒有個結論。<br>
                         </p>
                     </section>
-                </div>
+                </article>
 
             </main>
 
