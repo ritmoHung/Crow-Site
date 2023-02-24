@@ -97,6 +97,9 @@ body {
 }
 
 @media screen and (max-width: 640px) {
+    html {
+        font-size: 16px;
+    }
     .main-header {
         grid-template-rows: 1fr 1fr;
         grid-template-columns: none;        
@@ -277,6 +280,32 @@ br {
     display: block;
     content: '';
     margin-top: 1.5rem !important;
+}
+
+/* -------------------------- SCROLL -------------------------- */
+
+body::-webkit-scrollbar {
+    width: 12px;
+    background: transparent;
+    overflow-y: hidden;
+}
+
+body::-webkit-scrollbar-thumb {
+    border: 4px solid transparent;
+    background: var(--thumb-color);
+    border-radius: 12px;
+    background-clip: content-box;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    border: 4px solid transparent;
+    background:  var(--thumb-hover-color);
+    border-radius: 12px;
+    background-clip: content-box;
+}
+
+body::-webkit-scrollbar-corner {
+    border-radius: 12px;
 }
 
 /* -------------------------- OTHERS -------------------------- */
